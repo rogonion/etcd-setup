@@ -1,0 +1,8 @@
+# /etc/containers/systemd/etcd-data.volume
+[Unit]
+Description=Etcd Data Volume
+
+[Volume]
+User=1001
+Group=1001
+Label=app=etcd
