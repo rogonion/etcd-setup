@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Tuple, List
 
-from etcd_setup.core import BaseBuilder, BuildSpec, prune_cache_images, BuildahContainer, init_base_distro
+from src.core import BaseBuilder, BuildSpec, prune_cache_images, BuildahContainer, init_base_distro
 
 
 class RuntimeBuilder(BaseBuilder):

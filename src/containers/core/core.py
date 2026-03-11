@@ -4,7 +4,7 @@ from typing import Optional
 import typer
 
 from .builder import CoreBuilder
-from etcd_setup.core import load_spec, BuildSpec
+from src.core import load_spec, BuildSpec
 
 app = typer.Typer(help="Core binaries for etcd.")
 

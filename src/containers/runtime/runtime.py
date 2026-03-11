@@ -4,7 +4,7 @@ from typing import Optional
 import typer
 
 from .builder import RuntimeBuilder
-from etcd_setup.core import BuildSpec, load_spec
+from src.core import BuildSpec, load_spec
 
 app = typer.Typer(help="An etcd runtime.")
 
